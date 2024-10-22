@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [ '*' ]
 
 INSTALLED_APPS = [
     'crispy_forms',
+    'cats.apps.CatsConfig',
     'autos.apps.AutosConfig',
 'hello.apps.HelloConfig',
  "polls.apps.PollsConfig",
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
 ]
 
 MIDDLEWARE = [
