@@ -1,0 +1,51 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    background-color: #3d59c6;
+    color: #fefefe;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many CSS rules you will need... */
+#one {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    border: 5px solid blue;
+    margin: 5px;
+}
+
+#two {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    border: 5px solid green;
+    margin: 5px;
+}
+
+#three {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    border: 5px solid orange;
+    margin: 5px;
+}
+
+#four {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    border: 5px solid yellow;
+    margin: 5px;
+}
+
